@@ -70,6 +70,7 @@ div h2, div h3{
     text-align: center; /*Las caracteristicas que se le pueden aplicar son las siguientes center, left , right */
     text-decoration: overline;/*Las caracteristicas que se le pueden aplicar son las siguientes underline, none , right, line-throught, overline */
     text-shadow: 3px 5px 5px  blue;/*Sombreado en texto */
+    color-font:black;
 }
 /*La programacion de estos elementos va en orden */
 a:link {
