@@ -1,0 +1,155 @@
+#titulo{
+    color:tomato;
+}
+p.texto{
+    color:slateblue;
+}
+.superespecial{
+    color:aqua;
+}
+div p{
+    color:aquamarine;
+}
+div h2, div h3{
+    color:brown;
+}
+/* *{
+    font-size: 24px;
+}
+ */
+/*Esto es un comentario*/
+/*.color{
+    color:#A5A;     Valores por hexadecimal 0 es lo mas bajo ausencia de color (negro) maximo F (color blanco)
+   color: rgb(0, 0,0);/*Primer color es rojo, segundo verde y tercero azul los cuales 
+}*/
+.color{ /*Tipos de bordes*/
+    /* border: 5px black dotted; */
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+  /*   border-style:solid;
+    border-color: aqua;
+    border-radius: 5px;
+    border-width: 5px; */
+    border-width: 1cm; /*Exiten cm,mm,in,px,,pt,pc */
+    /*Unidades relativas exiten em, rem */
+
+}
+#fondo{
+    background-color: rgba(255,255, 255);
+    /*opacity: 0.3;Aplica la opacidad a todo el elemento*/
+    /*  background-image: url('img/img.png');
+    background-size: 200px 200px;/*Esta solo tiene 4 propiedades auto, cover, contain  y valores dados por el usuario*/
+    /*background-repeat: no-repeat; Ayuda a no repetir la imagen  se le pueden dar propiedades*/
+    /* background-color:repeat-y; */
+    /* background-color:repeat-y; */
+    /*   background-position: left top; Posicio en donde se repite la imagen solo hay 3 propiedes top, center y botoom*/     
+    background: #f00 url('img/img.png') repeat-y center bottom /100px 100px;
+}
+.margen {
+    background: chocolate;
+    margin: 3px;/*Crea espacios fuera del elemento*/
+    padding: 30px 15px 5px ;/*Crea espacios dentro del elemento*/
+    border:solid 1px black;/*Contorno del div*/
+    height: 200px;
+    width:50px;
+    overflow: scroll;
+    outline: 3px solid red; /*Borde que se coloca justamente por fuera del borde pero esta antes del margin */
+}
+.text{
+    font-family: 'Roboto',sans-serif;
+    text-align: center; /*Las caracteristicas que se le pueden aplicar son las siguientes center, left , right */
+    text-decoration: overline;/*Las caracteristicas que se le pueden aplicar son las siguientes underline, none , right, line-throught, overline */
+    text-shadow: 3px 5px 5px  blue;/*Sombreado en texto */
+}
+/*La programacion de estos elementos va en orden */
+a:link {
+    color:blueviolet;
+}
+a:visited{
+    color:green
+}
+a:hover{
+    color:yellow;/*Cuando al link se le pasa por encima el mouse*/
+}
+a:active{
+    color: rosybrown;/*Cuando estoy pinchando el link */
+}
+ul{
+    background: #A5A;
+    list-style-type:georgian;/*Valores circle,disc,georgian  */
+    /* padding-left: 0; */
+    /* list-style-position: inside; */
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /*Eliminar la separacion entre cada una de las celdas*/
+}
+th,td {
+    border:solid 1px #eee;
+    padding:5px;
+}
+th{
+    background-color: tomato;
+    color:white;
+    text-align: left;
+}
+tr:nth-child(even){ /*Even signfica imapar */
+    background-color: #eee;
+}
+tr:hover{
+    background-color: #A5A;
+    cursor:pointer;/*Coloca el icono de la manita cuando se le pone el mouse por encima */
+}
+span{
+    display: block; /*Este display funciona de tal manera en que hace que los elementos  no se pongan en lineas diferentes */
+    /*display: none; */
+   /* visibility: hidden; */
+   max-width: 300px;
+   background-color: #f00;
+}
+
+
+.inline{
+    display: inline;/* Este display funciona de tal manera en que hace que los elementos se pongan en lineas diferntes*/
+}
+#position{
+    position: sticky; /*Static, relative, fixed, absoulute, sitcky elementos que nos indica la psicion en la que se encontrara el elemento*/
+    left: 20px;
+    top:25px;
+}
+.left{
+    float:left; /* Funcion cuando este este dentro de otro elemento lo que hara sera pegarlo hacia la izquierda */
+    width: 200px;
+    height: 200px;
+}
+.right{
+    float:right;
+}
+.card{
+    border: solid 1px #ddd;
+    border-radius:5px;
+    margin:0 15px;
+    padding:10px 5px;
+}
+.inline-block{
+    display: inline-block;
+    height: 55px;
+    background-color: red;
+}
+.center{
+    padding: 50px 0;
+    width: 200px;
+    text-align: center;
+    margin:0 auto;
+    background-color: aqua;
+}
